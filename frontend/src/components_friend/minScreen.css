@@ -1,0 +1,102 @@
+.min-container {
+    height: 100%;
+    width: 100%;
+}
+
+.min-body {
+    position: fixed;
+    bottom: 70px;
+    right: 40px;
+    width: 450px;
+    height: 500px;
+    border-radius: 20px;
+    background: yellow;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 0px 16px 0px #00000014;
+    backdrop-filter: blur(20px);
+    z-index: 1000;
+    
+}
+
+
+.min-navbar {
+    width: 424px;
+    height: 30px;
+    background: #FFFFFF;
+    /* background: yellow; */
+    gap: 8px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-left: 12px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: move; 
+}
+
+.min-icon {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 400px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.min-icon:hover {
+    transform: scale(1.15);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+
+.min-content {
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;   /* prevents overflow */
+    
+}
+.max-body{
+    background: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    width:80% ;
+    height: auto;
+
+}
+
+.max-container{
+    display: 'flex';
+     flex-direction: 'column';
+      justify-content: 'center';
+       align-items: 'center';
+       width: '100%';
+       height:'100vh';
+     background: 'rgba(250, 250, 250, 1)' 
+}
+
+.max-navbar{
+    width: 96.7% ;
+    height: 1% ;
+    gap: 16px;
+    padding-top: 12px;
+    padding-right: 20px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    border-bottom: 1px solid #E2E3E5;
+    background: white;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+
+}

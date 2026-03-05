@@ -1,0 +1,61 @@
+/* ── Add this block to PatientHome.css AND DoctorHome.css ── */
+
+/* Wrapper forces the calendar to fill its container */
+.rsuite-cal-wrapper {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+
+/* Override RSuite's white background to match your dark theme */
+.rsuite-cal-wrapper .rs-calendar {
+  background: #0f172a !important;
+  color: #e2e8f0 !important;
+}
+
+.rsuite-cal-wrapper .rs-calendar-table-cell-content {
+  color: #cbd5e1 !important;
+}
+
+.rsuite-cal-wrapper .rs-calendar-table-header-cell-content {
+  color: #64748b !important;
+  font-weight: 600;
+}
+
+/* Today highlight */
+.rsuite-cal-wrapper .rs-calendar-table-cell-is-today .rs-calendar-table-cell-content {
+  background: #1e40af !important;
+  color: #fff !important;
+  border-radius: 50%;
+}
+
+/* Selected day */
+.rsuite-cal-wrapper .rs-calendar-table-cell-selected .rs-calendar-table-cell-content {
+  background: #2563eb !important;
+  color: #fff !important;
+  border-radius: 50%;
+}
+
+/* Month/year navigation bar */
+.rsuite-cal-wrapper .rs-calendar-header {
+  background: #0f172a !important;
+  border-bottom: 1px solid #1e293b !important;
+}
+
+.rsuite-cal-wrapper .rs-calendar-header-title,
+.rsuite-cal-wrapper .rs-calendar-header-backward,
+.rsuite-cal-wrapper .rs-calendar-header-forward {
+  color: #e2e8f0 !important;
+}
+
+/* Hover state */
+.rsuite-cal-wrapper .rs-calendar-table-cell:hover .rs-calendar-table-cell-content {
+  background: #1e293b !important;
+  border-radius: 50%;
+}
+
+/* Borders */
+.rsuite-cal-wrapper .rs-calendar-bordered .rs-calendar-table-cell,
+.rsuite-cal-wrapper .rs-calendar-bordered .rs-calendar-table-header-cell {
+  border-color: #1e293b !important;
+}

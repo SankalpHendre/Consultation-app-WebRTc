@@ -1,0 +1,17 @@
+# Root .gitignore for monorepo
+frontend/node_modules/
+backend/env/
+backend/venv/
+backend/__pycache__/
+backend/db.sqlite3
+.env
+.DS_Store
+*.log
+.vscode/
+.idea/
+frontend/dist/
+frontend/build/
+frontend/.cache/
+node_modules/
+dist/
+build/
