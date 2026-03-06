@@ -5,14 +5,15 @@
   flex-direction: column;
   gap: 10px;
   padding: 14px 10px;
-  width: 60px;
-  height: auto;
+  width: 80px;
+  height:79vh;
   border-radius: 16px;
   position: fixed;
-  right: 5px;
-  top: 72px;
+  right: 175px;
+  top: 107px;
   opacity: 1;
-  background: #F0F1F2;
+  background: #FFFFFF1A;
+
   backdrop-filter: blur(32px);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
 }
@@ -29,7 +30,7 @@
   align-items: center;
   font-size: 18px;
   background: rgba(255, 255, 255, 1);
-  border: 1px solid rgba(230, 230, 230, 1);
+  
   cursor: pointer;
   color: #555;
   transition: transform 0.2s ease, box-shadow 0.2s ease, color 0.15s;

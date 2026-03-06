@@ -38,6 +38,8 @@
 .max-navbar {
     width: 100%;
     height: 52px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
     background: #FFFFFF;
     display: flex;
     align-items: center;

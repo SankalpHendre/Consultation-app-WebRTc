@@ -25,8 +25,8 @@ const RightSideBar = ({ activeSidebar, setActiveSidebar ,unreadChat}) => {
                 width: '10px',
                 backgroundColor: '#ff4d4f', // Vibrant red
                 borderRadius: '50%',
-                border: '2px solid white', // Makes it "pop" against the icon
-                boxShadow: '0 0 4px rgba(0,0,0,0.2)'
+                 // Makes it "pop" against the icon
+               
               }} />
             )}
           </div>

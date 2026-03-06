@@ -3,8 +3,8 @@
    ============================================================ */
 
 .container {
-  width: calc(100% - 80px); /* leaves 80 px on right for the fixed sidebar */
-  height: 81vh;
+  width: calc(95% - 80px); /* leaves 80 px on right for the fixed sidebar */
+  height: 79vh;
   border-radius: 20px;
   gap: 40px;
   opacity: 1;
@@ -40,8 +40,8 @@
 
 /* ── Waiting / avatar frame ── */
 .frame {
-  width: 250px;
-  height: 191px;
+  width: 600px;
+  height: 600px;
   opacity: 1;
   display: flex;
   flex-direction: column;
@@ -51,9 +51,9 @@
 
 /* ── Initials circle inside .frame ── */
 .name {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+  border-radius: 200px;
   padding: 0;
   opacity: 1;
   background: rgba(255, 255, 255, 0.75);

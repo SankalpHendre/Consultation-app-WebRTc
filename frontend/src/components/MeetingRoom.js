@@ -518,7 +518,10 @@ export default function MeetingRoom() {
   const mainRemote = remotes[0];
 
   return (
-    <div style={{ display: "flex", flexDirection: "column", height: "100vh", background: "#f8f9fa" }}>
+    <div style={{width:'100vw',height:'100vh',display:'flex',justifyContent:'center',alignItems:'center'}}>
+
+   
+    <div style={{ display: "flex", flexDirection: "column", height: "90vh" ,width:'80vw', background: "#f8f9fa",borderRadius:'24px',boxShadow:'0 8px 24px rgba(0, 0, 0, 0.08)' }}>
       {!isMini && <TopNav isMini={isMini} setIsMini={setIsMini} roomId={roomId} />}
 
       <div style={{ display: "flex", flex: 1, overflow: "hidden", position: "relative" }}>
@@ -568,7 +571,7 @@ export default function MeetingRoom() {
         )}
 
         {rightPanel && !isMini && (
-          <div style={{ width: "300px", flexShrink: 0, height: "100%", borderLeft: "1px solid #ece8f4", background: "#ffffff", display: "flex", flexDirection: "column", overflow: "hidden", boxShadow: "-2px 0 12px rgba(100,80,200,0.07)" }}>
+          <div style={{ width: "315px", flexShrink: 0, display: "flex", flexDirection: "column", overflow: "hidden",borderRadius:'24px' }}>
             {rightPanel === "chat"   && <ChatSidebar  activeSidebar={rightPanel} setActiveSidebar={setRightPanel} messages={chatMessages} onSendMessage={sendChat} myName={myName} />}
             {rightPanel === "notes"  && <TransSideBar activeSidebar={rightPanel} setActiveSidebar={setRightPanel} notes={formatTranscriptForUI(transcript)} />}
             {rightPanel === "person" && <InfoSideBar  activeSidebar={rightPanel} setActiveSidebar={setRightPanel} patientData={meetingData?.patient} />}
@@ -586,6 +589,7 @@ export default function MeetingRoom() {
           {error}
         </div>
       )}
+    </div>
     </div>
   );
 }

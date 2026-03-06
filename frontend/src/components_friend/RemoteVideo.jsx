@@ -155,6 +155,7 @@ const RemoteVideo = ({
       {/* ── Remote participant name tag (top-left) ─────────────────────── */}
       <div className="info">
         <div style={{ fontSize: '11px', fontWeight: '500' }}>{name}</div>
+        <div style={{ fontSize: '11px', fontWeight: '500' }}>Female | 29</div>
       </div>
 
       {/* ── Remote mic badge (top-right) ───────────────────────────────────
